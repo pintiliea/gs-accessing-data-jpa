@@ -10,7 +10,7 @@ buildscript {
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'idea'
-apply plugin: 'spring-boot'
+apply plugin: 'org.springframework.boot'
 
 jar {
     baseName = 'gs-accessing-data-jpa'
@@ -30,4 +30,3 @@ dependencies {
     compile("com.h2database:h2")
     testCompile("junit:junit")
 }
-
